@@ -1,4 +1,4 @@
-# vue-cropperjs
+# vue-cropperjs-lib
 vue基于cropperjs，实现裁剪图片组件封装，图片裁剪组件支持移动端和PC端。
 
 ## install
