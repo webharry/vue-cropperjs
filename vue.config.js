@@ -1,12 +1,12 @@
 module.exports = {
   lintOnSave: false,
-//   page: {
-//       index: {
-//           entry: "src/components/crop/index.js",
-//           template: "public/index.html",
-//           filename: "crop.js"
-//       }
-//   },
+  pages: {
+      index: {
+          entry: "examples/main.js",
+          template: "public/index.html",
+          filename: "index.html"
+      }
+  },
   css: {//css前置内联
     extract: false
   }

@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import "../../utils/canvas-toBlob.js";
+import "../../examples/utils/canvas-toBlob.js";
 import Cropper from "cropperjs";
 import "cropperjs/dist/cropper.css";
 

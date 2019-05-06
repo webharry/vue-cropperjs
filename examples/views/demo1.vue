@@ -28,13 +28,12 @@
   </div>
 </template>
 <script>
-// import Crop from "../../components/crop/crop.vue";
 import { setTimeout } from "timers";
 export default {
   name: "demo1",
   data() {
     return {
-      src: require("../../assets/123.jpeg"),
+      src: require("../assets/123.jpeg"),
       width: document.body.clientWidth,
       height: 250,
       autoCropArea: 1,
@@ -51,7 +50,7 @@ export default {
         //以下写上传文件接口逻辑
         setTimeout(() => {
           //上传成功，返回裁剪后的图片
-          this.cropImg = require("../../assets/123.jpeg");
+          this.cropImg = require("../assets/123.jpeg");
           this.show = false;
         }, 100);
       });
@@ -59,10 +58,7 @@ export default {
     cancel() {
       this.show = false;
     }
-  },
-//   components: {
-//     Crop
-//   }
+  }
 };
 </script>
 <style lang="less" scoped>

@@ -1,4 +1,4 @@
-import Crop from "./components/crop/index.js"
+import Crop from "../packages/crop/index.js.js.js"
 
 const components = [Crop]
 const install = function(vue) {
