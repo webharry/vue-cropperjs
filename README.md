@@ -3,16 +3,18 @@ vue基于cropperjs，实现裁剪图片组件封装，图片裁剪组件支持�
 
 ## install
 ```
-npm install vue-cropperjs --save-dev
+npm install vue-cropperjs-lib --save-dev
 ```
 ## use
-1、在main.js文件全局引入组件vue-cropperjs:
+1、在main.js文件全局引入组件vue-cropperjs-lib:
 
 ```js
-import Crop from "vue-cropperjs";
+import Crop from "vue-cropperjs-lib";
+
+Vue.use(Crop)
 ```
 
-2、使用组件：
+2、然后就可以使用组件：
 
 ```html
 <crop
