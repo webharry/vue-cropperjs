@@ -28,7 +28,7 @@
   </div>
 </template>
 <script>
-import Crop from "../../components/crop/crop.vue";
+// import Crop from "../../components/crop/crop.vue";
 import { setTimeout } from "timers";
 export default {
   name: "demo1",
@@ -60,9 +60,9 @@ export default {
       this.show = false;
     }
   },
-  components: {
-    Crop
-  }
+//   components: {
+//     Crop
+//   }
 };
 </script>
 <style lang="less" scoped>
